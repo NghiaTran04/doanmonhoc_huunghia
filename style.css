@@ -1,0 +1,1290 @@
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-Bold.woff2') format('woff2'),
+        url('./css/fonts/DMSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-BoldItalic.woff2') format('woff2'),
+        url('./css/fonts/DMSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-Italic.woff2') format('woff2'),
+        url('./css/fonts/DMSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-Medium.woff2') format('woff2'),
+        url('./css/fonts/DMSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-MediumItalic.woff2') format('woff2'),
+        url('./css/fonts/DMSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./css/fonts/DMSans-Regular.woff2') format('woff2'),
+        url('./css/fonts/DMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Bold.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Black.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-ExtraBold.woff2') format('woff2'),
+        url('./css/fonts/Outfit-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-ExtraLight.woff2') format('woff2'),
+        url('./css/fonts/Outfit-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Light.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Medium.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Regular.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-Thin.woff2') format('woff2'),
+        url('./css/fonts/Outfit-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./css/fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('./css/fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+#form-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    width: 100vw;
+}
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    background-image: url(./anh/BG\ \(3\).png);
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    top: 0px;
+}
+.top-header{
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 16px;
+    
+}
+.top-header .container{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 48px;
+    left: 375px;
+    right: 375px;
+    margin: auto;
+    justify-content: space-between;
+}
+.top-header .container .logo{
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    left: 0;
+}
+.top-header .container .logo img{
+    position: absolute;
+    width: 32px;
+    height: 44px;
+    left: 0;
+    top: 18px;
+}
+.top-header .container .logo p{
+    display: flex;
+    position: absolute;
+    width: 134px;
+    height: 34px;
+    left: 42px;
+    top: 5px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 24px;
+}
+.top-header .container .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 470px;
+    height: 24px;
+    left: 353px;
+    top: 18px;
+}
+.top-header .container .navbar ul{
+    display: flex;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #7B88A8;
+    gap: 30px;
+}
+.top-header .container .navbar ul li{
+    display: flex;
+}
+.top-header .container .navbar ul li span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 290px;
+    top: 5px;
+    background: #34C635;
+    border-radius: 50%;
+}
+.top-header .container .navbar #menu{
+    display: none;
+}
+.top-header .container .navbar label{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .top-header .container .navbar label{
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    } 
+    .top-header .container .navbar ul{
+        display: none;
+    }  
+    .top-header{
+        position: relative;
+    } 
+    .top-header .navbar input#menu:checked ~ ul{
+        display: flex;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin: 0;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        height: 24px;
+        background-color: #e2ecf3;
+        text-align: center;
+        cursor: pointer;
+    }
+    .top-header .container .navbar ul li span{
+        display: none;
+    }
+    .top-header .navbar input#menu:checked ~ label>.ti-menu::before{
+        content: "\e646";
+    }
+}
+.top-header .icons{
+    display: flex;
+    position: absolute;
+    left: 946px;
+    top: 37px;
+    width: 24px;
+    height: 24px;
+    gap: 25px;
+}
+.top-header .icons a{
+    color: #7B88A8;
+    text-decoration: none;
+    position: relative;
+}
+.top-header .icons a span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 0.2px;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+}
+.top-header .button{
+    display: flex;
+    text-transform: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 129px;
+    height: 48px;
+    left: 1041px;
+    top: 16px;
+    background: #4F77FF;
+    border-radius: 5px;
+}
+.top-header .button button{
+    width: 52px;
+    height: 24px;
+    display: contents;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.top-header .title{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: absolute;
+    width: 870px;
+    height: 94px;
+    left: 525px;
+    top: 203px;
+}
+.top-header .title h1{
+    width: 870px;
+    height: 46px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+    margin: 0;
+}
+.top-header .title span{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 70px;
+    width: 870px;
+    height: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #2D3958;
+}
+.top-header .title p{
+    margin: 0;
+}
+#contents1{
+    position: absolute;
+    top: 500px;
+    width: 1920px;
+    height: 2330px;
+    background-color: white;
+}
+#contents1 .product{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 1040px;
+    top: 100px;
+    left: 375px;
+    justify-content: center;
+}
+.product .items{
+    width: 1170px;
+    height: 720px;
+}
+.product .items .slide{
+    width: 1170px;
+    height: 720px;
+}
+.product .items .slide .imgslide{
+    width: 720px;
+    position: absolute;
+    display: flex;
+    height: 720px;
+    gap: 130px;
+}
+.product .items .slide .imgslide img{
+    width: 570px;
+    height: 570px;
+}
+.product .items .slide .imgslide .oder{
+    display: flex;
+    position: absolute;
+    width: 420px;
+    height: 120px;
+    top: 600px;
+    gap: 30px;
+}
+.product .items .slide .oder img{
+    width: 120px;
+    height: 120px;
+}
+.product .items .slide .contents{
+    position: absolute;
+    width: 470px;
+    height: 720px;
+    left: 730px;
+    top: 0;
+}
+.product .items .slide .contents h2{
+    margin: 0;
+    width: 470px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    letter-spacing: -0.02em;
+    color: #2D3958;
+}
+.product .items .slide .contents h3{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    left: 0;
+    top: 65px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+    margin: 0;
+}
+.product .items .slide .contents h4{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    left: 0;
+    top: 124px;
+    font-size: 18px;
+}
+.product .items .slide .contents .content{
+    position: absolute;
+    top: 185px;
+    width: 470px;
+    height: 170px;
+}
+.product .items .slide .contents .content p{
+    width: 470px;
+    height: 85px;
+    position: absolute; 
+    top: 0;
+    margin: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+}
+.product .items .slide .contents .content span{
+    width: 470px;
+    height: 55px;
+    position: absolute; 
+    top: 100px;
+    margin: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+}
+.product .items .slide .contents .color{
+    position: absolute;
+    top: 390px;
+    width: 140px;
+    height: 90px;
+}
+.product .items .slide .contents .color h3{
+    position: absolute;
+    top: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+}
+.product .items .slide .contents .color .list{
+    display: flex;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    top: 50px;
+}
+.product .items .slide .contents .color .list .color1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    background: #F7F5F1;
+    border: 1px solid #E7E5EA;
+    border-radius: 50%;
+}
+.product .items .slide .contents .color .list .color2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 50px;
+    background: #5E756F;
+    border: 1px solid #E7E5EA;
+    border-radius: 50%;
+}
+.product .items .slide .contents .color .list .color3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 100px;
+    background: #F2E0DC;
+    border: 1px solid #E7E5EA;
+    border-radius: 50%;
+}
+.product .items .slide .contents .oder{
+    display: flex;
+    position: absolute;
+    width: 238px;
+    height: 48px;
+    top: 521px;
+}
+.product .items .slide .contents .oder span{
+    width: 98px;
+    height: 48px;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+.product .items .slide .contents .oder .add-to-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 118px;
+    background: #4F77FF;
+    border-radius: 5px;
+    width: 130px;
+    height: 48px;
+}
+.product .items .slide .contents .oder .add-to-cart button{
+    width: 88px;
+    height: 24px;
+    display: contents;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product .items .slide .contents .icons {
+    display: flex;
+    position: absolute;
+    width: 232px;
+    height: 18px;
+    top: 600px;
+}
+.product .items .slide .contents .icons img{
+    position: absolute;
+
+}
+.product .items .slide .contents .icons span{
+    height: 18px;
+    position: absolute;
+    left: 58px;
+    border: 1px solid #E7E5EA;
+}
+.product .items .slide .contents .icons .socical{
+    width: 143px;
+    height: 17px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    gap: 40px;
+}
+.product .items .slide .contents .info{
+    display: flex;
+    position: absolute;
+    width: 470px;
+    height: 53px;
+    top: 648px;
+}
+.product .items .slide .contents .info .thanh1 span{
+    position: absolute;
+    display: flex;
+    width: 470px;
+    border: 1px solid #E7E5EA;
+}
+.product .items .slide .contents .info .navbar{
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    padding: 15px;
+}
+.product .items .slide .contents .info .navbar p{
+    margin: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+.product .items .slide .contents .info .navbar span{
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+.product .items .slide .contents .info .thanh2 span{
+    position: absolute;
+    display: flex;
+    width: 470px;
+    border: 1px solid #E7E5EA;
+    top: 53px;
+}
+.product .list1{
+    position: absolute;
+    width: 1170px;
+    height: 230px;
+    top: 821px;
+}
+.product .list1 ul{
+    display: flex;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #2D3958;
+    justify-content: center;
+    gap: 30px;
+}
+.product .list1 ul li{
+    display: flex;
+}
+.product .list1 ul li span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 420px;
+    top: 5px;
+    background: #34C635;
+    border-radius: 50%;
+}
+.product .list1 .content{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 170px;
+}
+.product .list1 .content .thanh2 span{
+    position: absolute;
+    display: flex;
+    width: 1170px;
+    border: 2px solid #E7E5EA;
+}
+.product .list1 .content .noidung{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 69px;
+    top: 50px;
+}
+.product .list1 .content .noidung span{
+    position: absolute;
+    width: 570px;
+    height: 69px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+}
+.product .list1 .content .noidung p{
+    position: absolute;
+    width: 570px;
+    height: 69px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+    margin: 0;
+    left: 600px;
+}
+.product .list1 .content .thanh3 span{
+    position: absolute;
+    display: flex;
+    width: 1170px;
+    border: 2px solid #E7E5EA;
+    top: 170px;
+}
+.product .needhear{
+    position: absolute;
+    width: 1170px;
+    height: 470px;
+    top: 1140px;
+    display: flex;
+    justify-content: center;
+}
+.product .needhear h2{
+    width: 970px;
+    height: 50px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2D3958; 
+    margin: 0;
+}
+.product .needhear .buy{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 1170px;
+    height: 340px;
+    top: 130px;
+}
+.product .needhear .buy .anh1{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 340px;
+    justify-content: center;
+}
+.product .needhear .buy .anh1 img{
+    width: 270px;
+    height: 270px;
+}
+.product .needhear .buy .anh1 h3{
+    display: flex;
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+    top: 300px;
+    margin: 0;
+}
+.product .needhear .buy .anh1 p{
+    display: flex;
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B88A8;
+    top: 335px;
+    margin: 0;
+}
+.product .needhear .buy .anh2{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 340px;
+    justify-content: center;
+    left: 300px;
+}
+.product .needhear .buy .anh2 img{
+    width: 270px;
+    height: 270px;
+}
+.product .needhear .buy .anh2 h3{
+    display: flex;
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+    top: 300px;
+    margin: 0;
+}
+.product .needhear .buy .anh2 p{
+    display: flex;
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B88A8;
+    top: 335px;
+    margin: 0;
+}
+.product .needhear .buy .anh3{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 340px;
+    justify-content: center;
+    left: 600px;
+}
+.product .needhear .buy .anh3 img{
+    width: 270px;
+    height: 270px;
+}
+.product .needhear .buy .anh3 h3{
+    display: flex;
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+    top: 300px;
+    margin: 0;
+}
+.product .needhear .buy .anh3 p{
+    display: flex;
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B88A8;
+    top: 335px;
+    margin: 0;
+}
+.product .needhear .buy .anh4{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    height: 340px;
+    justify-content: center;
+    left: 900px;
+}
+.product .needhear .buy .anh4 img{
+    width: 270px;
+    height: 270px;
+}
+.product .needhear .buy .anh4 h3{
+    display: flex;
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+    top: 300px;
+    margin: 0;
+}
+.product .needhear .buy .anh4 p{
+    display: flex;
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B88A8;
+    top: 335px;
+    margin: 0;
+}
+#contents{
+    background-image: url(./anh/BG\ \(2\).png);
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    top: 2330px;
+    display: flex;
+    justify-content: center;
+}
+#contents .title{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 970px;
+    height: 167px;
+}
+#contents .title h2{
+    width: 970px;
+    height: 112px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+    margin: 0;
+}
+#contents .title p{
+    width: 970px;
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #7B88A8;
+}
+#contents .chat-now{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 334px;
+    background: #4F77FF;
+    border-radius: 5px;
+    width: 141px;
+    height: 56px;
+}
+#contents .chat-now button{
+    width: 77px;
+    height: 24px;
+    display: contents;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#footer{
+    background-color: #292F3A;
+    position: absolute;
+    width: 1920px;
+    height: 546px;
+    top: 2330px;
+} 
+#footer .container2{
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 212px;
+    left: 375px;
+    gap: 30px;
+    top: 100px;
+    justify-content: center;
+}
+#footer .container2 .logo{
+    width: 176px;
+    height: 44px;
+}
+.container2 .logo img{
+    position: absolute;
+    width: 32px;
+    height: 44px;
+}
+.container2 .logo p{  
+    position: absolute;
+    height: 34px;
+    left: 40px;
+    top: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container2 .Company{
+    width: 170px;
+    height: 212px;
+}
+.container2 .Company h2{
+    position: absolute;
+    width: 170px;
+    width: 170px;
+    height: 32px;
+    top: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container2 .Company ul{
+    position: absolute;
+    width: 65px;
+    height: 170px;
+    top: 52px;
+    padding: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #E7E5EA;
+    margin: auto;
+}
+.container2 .Company ul li{
+    display: flex;
+}
+.container2 .Services{
+    width: 170px;
+    height: 212px;
+}
+.container2 .Services h2{
+    position: absolute;
+    width: 170px;
+    width: 170px;
+    height: 32px;
+    top: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container2 .Services ul{
+    position: absolute;
+    width: 65px;
+    height: 170px;
+    top: 52px;
+    padding: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #E7E5EA;
+    margin: auto;
+}
+.container2 .Services ul li{
+    display: flex;
+}
+.container2 .Contact{
+    width: 170px;
+    height: 212px;
+}
+.container2 .Contact h2{
+    position: absolute;
+    width: 170px;
+    width: 170px;
+    height: 32px;
+    top: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container2 .Contact ul{
+    position: absolute;
+    width: 65px;
+    height: 170px;
+    top: 52px;
+    padding: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #E7E5EA;
+    margin: auto;
+}
+.container2 .Contact ul li{
+    display: flex;
+}
+.container2 .Newsletter{
+    width: 370px;
+    height: 234px;
+}
+.container2 .Newsletter h2{
+    position: absolute;
+    width: 170px;
+    height: 32px;
+    top: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.container2 .Newsletter .content{
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    top: 52px;
+    padding: 0;
+    margin: auto;
+}
+.container2 .Newsletter .content p{
+    position: absolute;
+    width: 370px;
+    height: 52px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E7E5EA;
+    margin: 0;
+}
+.container2 .Newsletter .content .item{
+    display: flex;
+    position: absolute;
+    width: 370px;
+    height: 48px;
+    top: 70px;
+}
+.container2 .Newsletter .content .item input{
+    position: absolute;
+    width: 235px;
+    height: 48px;
+    background: #E7E5EA;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-left: 20px;
+}
+.container2 .Newsletter .content .item .value{
+    position: absolute;
+    width: 97.67px;
+    height: 26px;
+    left: 1193.38px;
+    top: 4231px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+    opacity: 0.7;
+}
+.container2 .Newsletter .content .item .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 129px;
+    height: 48px;
+    left: 241px;
+    background: #4F77FF;
+    border-radius: 5px;
+}
+.container2 .Newsletter .content .item .submit button{
+    display: contents;
+    width: 50px;
+    height: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container2 .Newsletter .content span{
+    position: absolute;
+    width: 370px;
+    height: 42px;
+    top: 135px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #E7E5EA;
+}
+.copyright{
+    width: 1170px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    top: 439px;
+    left: 375px;
+    gap: 304px;
+}
+.copyright span{
+    position: absolute;
+    width: 1170px;
+    height: 1px;
+    top: 0;
+    background: #7B88A8;
+    opacity: 0.3;
+}
+.copyright  p{
+    position: absolute;
+    width: 670px;
+    height: 26px;
+    top: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E7E5EA;
+    margin: 0;
+}
+.copyright .icons{
+    position: absolute;
+    width: 196px;
+    height: 52px;
+    left: 974px;
+    top: 27px;
+    display: flex;
+    gap: 20px;
+}
